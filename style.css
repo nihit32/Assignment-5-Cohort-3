@@ -1,0 +1,266 @@
+:root{
+  --bg_btn_color: #f3f3f6;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+/* ================== nav section ================ */
+nav {
+  width: 100%;
+  height: 10%;
+  /* background-color: antiquewhite; */
+}
+nav div img {
+  width: 100px;
+  height: 60px;
+  margin-right: 20px;
+}
+.left {
+  margin-left: 30px;
+}
+.left a {
+  font-weight: 600;
+}
+
+.right {
+  width: 15%;
+  align-items: center;
+}
+.btn2 {
+  color: white;
+  background-color: black;
+  width: 40%;
+  height: 50%;
+  justify-content: center;
+  border-radius: 50px;
+}
+button {
+  cursor: pointer;
+}
+.btn1 {
+  font-weight: 600;
+}
+.btn2 button {
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+/* ================== heading section ================ */
+.section1 {
+  width: 100%;
+}
+.heading {
+  width: 50%;
+  text-align: center;
+  
+}
+.heading h1 {
+    margin-top: 50px;
+    line-height: 85px;
+  font-size: 70px;
+  width: 80%;
+  font-family: Georgia Ref Georgia Bold Georgia-Bold Georgia Italic
+    Georgia-Italic;
+    margin-bottom: 30px;
+}
+.heading p {
+  font-size: 20px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.heading input{
+    padding: 18px;
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+
+    background-color: var(--bg_btn_color);
+    
+}
+
+.search_btn{
+  width: 100%;
+  overflow: hidden;
+}
+.search_btn i {
+  background-color: var(--bg_btn_color);
+  padding: 11px;
+  font-size: 25px;
+   border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+/* ===================trending boxes================== */
+
+.Trending_searches{
+  margin-top: 30px;
+  gap: 15px;
+}
+.Trending_searches a {
+  font-size: 14px;
+  background-color: var(--bg_btn_color);
+  width: 110px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+}
+.Trending_searches a:hover{
+  background-color: #d7d5d5;
+}
+
+
+/* =================== nav2 section ========================== */
+.nav2{
+  margin-top: 60px;
+   justify-content: space-around;
+   align-items: center;
+}
+.part1{
+  padding: 7px 15px;
+  width: 7%;
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+   border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+      border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+.part2{
+  font-weight: 700;
+}
+.part2 aa{
+  padding: 30px;
+}
+.part3{
+  border: 1px solid black;
+  text-align: center;
+  padding: 7px 15px;
+     border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+      border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.first_a{
+  width: 90px;
+  text-align: center;
+      border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+      border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+/* ============== Grid section =============== */
+.grid_secion{
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+}
+.card1{
+  margin-left: 60px;
+  margin-top: 40px;
+  margin-right: 60px;
+  width: 330px;
+  height: 290px;
+ 
+}
+.card1 img {
+    border-radius: 15px;
+     transition: all ease-in 0.5s;
+}
+.btm_content{
+  margin-top: 5px;
+  height: calc(100% - 290px); 
+  /* position: relative; */
+  justify-content: space-between;
+}
+.btm_content img{
+  width: 30px;
+  height: 30px;
+}
+
+
+/* ============= signup section ============= */
+
+.signup{
+  padding: 40px;
+}
+.signup button{
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+
+/* ===================== slider ===================== */
+
+
+.slide-track{
+ padding: 30px; 
+ margin: 0px auto;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+}
+.slider{
+  overflow: hidden;
+    padding-bottom: 40px;
+
+}
+@keyframes scroll {
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+
+/* ================== last section ============== */
+
+.last_section{
+  margin: 0px auto;
+  padding: 10px;
+  justify-content: space-around;
+
+}
+.logo img{
+  width: 150px;
+  height: 80px;
+}
+.links a{
+  font-weight: 600;
+}
+.media_img i{
+  font-size: x-large;
+}
+
+/* ========== section footer ============ */
+.footer{
+  width: 100%;
+  padding: 20px;
+}
+.center_footer{
+  width: 80%;
+  margin: 0px auto;
+}
+.part1_footer a{
+  color: #7a7a7a
+}
+.part2_footer a{
+  color: #7a7a7a
+}
